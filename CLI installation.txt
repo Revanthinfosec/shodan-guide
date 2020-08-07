@@ -1,0 +1,21 @@
+Shodan CLI
+Hello friends here we are going to discuss about Shodan cli. So, please read it below:
+
+What is Shodan CLI?
+The Shodan CLI was known as a Shodan Command Line Interface which mean we are going to use the Shodan with the help of command line.
+
+Why is the difference between a Shodan CLI and Shodan UI? Why we should prefer the CLI but not UI?
+Whenever we are hunting for a specific type of bugs for example let us consider CVE as our use case. So, whenever we are seriously hunting a bug then after some 3 to 4 pages, we will be encountering a 404 error which was a server-side error. So, when it comes to the bug hunters who were familiar with this, they can understand what was the reason for this but when coming to the new commers it was a little bit crispy difficult to see this. Then the solution to this is gradually moving towards the Shodan CLI which runs over command line as like a bash script or .PY script.
+How to install the Shodan CLI?
+To install the Shodan CLI we need to confirm that our machine was booted with the python. So, to install it please go with the following commands:
+Note: Please install python first.
+==> Installation via simple line
+$ easy_install shodan
+$ shodan init <api key>
+$ shodan <cve payload>
+==> Installation with pip
+$ sudo pip install shodan
+$ shodan init <api key>
+$ shodan <cve payload>
+
+
